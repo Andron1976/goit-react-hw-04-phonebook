@@ -1,11 +1,10 @@
 .button {
-    width: 100px;
-    margin-left: 30px;
-    padding: 4px;
-
-    border: 1px solid transparent;
     border-radius: 5px;
-
+  background-color: rgb(10, 100, 10);
+  color: #fff;
+  padding: 5px 10px;
+  transition: 300ms;
+  margin-left: 30px;
 }
 
 .button:hover {
@@ -14,5 +13,5 @@
 }
 
 .item:not(:last-child){
-    margin-bottom: 10px;
+    margin: 0px 30px 10px 0px;
 }
